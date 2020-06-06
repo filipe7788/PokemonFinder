@@ -1,6 +1,6 @@
 # PokemonFinder
 
-iOS App to list all pokemons by type
+iOS App to list all pokemons by type using MVVM-C architecture.
 
 ## Built With
 
