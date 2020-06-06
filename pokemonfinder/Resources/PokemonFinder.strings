@@ -1,0 +1,28 @@
+/* 
+  PokemonFinder.strings
+  PokemonFinder
+
+  Created by Filipe da Cruz Ribeiro on 26/05/20.
+  Copyright © 2020 Filipe da Cruz RIbeiro. All rights reserved.
+*/
+
+letsGoButtonTitle = "Let's go!";
+confirmButtonTitle = "Confirm";
+
+subscribeNameTitle = "Let's meet each other first?";
+subscribeNameHintText = "First we need to know your name...";
+
+ChooseFavoriteTitle = "Hello, %@!";
+ChooseFavoriteHintText = "...now tell us wich is your favorite Pokémon Type";
+
+SelectFavoriteTypeTitle = "Select your favorite pokémon type";
+
+pokemonHeaderLabelTitle = "Pokemon Finder";
+PokemonLabelTitle = "Pokémon";
+NameLabelTitle = "Name";
+
+errorDefaultMessageTitle = "Opa! Ocorreu um erro";
+errorDefaultMessageSubTitle = "Toque para tentar novamente";
+
+emptyDefaultMessageTitle = "Ops!";
+emptyDefaultMessageSubTitle = "Não há resultados";

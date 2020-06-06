@@ -1,0 +1,150 @@
+PODS:
+  - Alamofire (4.7.3)
+  - AlamofireImage (3.4.1):
+    - Alamofire (~> 4.7)
+  - Differentiator (4.0.1)
+  - IQKeyboardManagerSwift (6.0.5)
+  - Nimble (7.3.4)
+  - Quick (1.3.4)
+  - R.swift (5.0.3):
+    - R.swift.Library (~> 5.0.0)
+  - R.swift.Library (5.0.1)
+  - Realm (4.4.1):
+    - Realm/Headers (= 4.4.1)
+  - Realm/Headers (4.4.1)
+  - RealmSwift (4.4.1):
+    - Realm (= 4.4.1)
+  - RxBlocking (5.1.1):
+    - RxSwift (~> 5)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxGesture (3.0.2):
+    - RxCocoa (~> 5.1)
+    - RxSwift (~> 5.1)
+  - RxNimble/Core (4.5.0):
+    - Nimble (~> 7.0)
+    - RxSwift (~> 5.0)
+  - RxNimble/RxBlocking (4.5.0):
+    - RxBlocking
+    - RxNimble/Core
+  - RxNimble/RxTest (4.5.0):
+    - RxNimble/Core
+    - RxTest
+  - RxRealm (2.0.0):
+    - RealmSwift (~> 4.0)
+    - RxSwift (~> 5.0)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - RxSwiftExt (5.2.0):
+    - RxSwiftExt/Core (= 5.2.0)
+    - RxSwiftExt/RxCocoa (= 5.2.0)
+  - RxSwiftExt/Core (5.2.0):
+    - RxSwift (~> 5.0)
+  - RxSwiftExt/RxCocoa (5.2.0):
+    - RxCocoa (~> 5.0)
+    - RxSwiftExt/Core
+  - RxSwiftUtilities (2.1.0):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - RxTest (5.1.1):
+    - RxSwift (~> 5)
+  - SnapKit (4.2.0)
+  - SpringIndicator (4.0.1)
+  - StatefulViewController (3.0)
+  - SwiftLint (0.39.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7.3)
+  - AlamofireImage
+  - IQKeyboardManagerSwift (~> 6.0.4)
+  - Nimble (~> 7.3.4)
+  - Quick (~> 1.3.4)
+  - R.swift (~> 5.0.3)
+  - RealmSwift
+  - RxCocoa
+  - RxDataSources
+  - RxGesture
+  - RxNimble/RxBlocking
+  - RxNimble/RxTest
+  - RxRealm
+  - RxSwift
+  - RxSwiftExt
+  - RxSwiftUtilities (from `https://github.com/RxSwiftCommunity/RxSwiftUtilities`, branch `master`)
+  - SnapKit (~> 4.2.0)
+  - SpringIndicator (~> 4.0.0)
+  - StatefulViewController (~> 3.0)
+  - SwiftLint (~> 0.37)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - Differentiator
+    - IQKeyboardManagerSwift
+    - Nimble
+    - Quick
+    - R.swift
+    - R.swift.Library
+    - Realm
+    - RealmSwift
+    - RxBlocking
+    - RxCocoa
+    - RxDataSources
+    - RxGesture
+    - RxNimble
+    - RxRealm
+    - RxRelay
+    - RxSwift
+    - RxSwiftExt
+    - RxTest
+    - SnapKit
+    - SpringIndicator
+    - StatefulViewController
+    - SwiftLint
+
+EXTERNAL SOURCES:
+  RxSwiftUtilities:
+    :branch: master
+    :git: https://github.com/RxSwiftCommunity/RxSwiftUtilities
+
+CHECKOUT OPTIONS:
+  RxSwiftUtilities:
+    :commit: a3e91fb9ea003c42325975f4d05d9df3d3b196d0
+    :git: https://github.com/RxSwiftCommunity/RxSwiftUtilities
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  AlamofireImage: 78d67ccbb763d87ba44b21583d2153500a195630
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
+  IQKeyboardManagerSwift: c14eca30f6001457d6ddf25e313f23fb6578c41c
+  Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
+  Quick: f4f7f063c524394c73ed93ac70983c609805d481
+  R.swift: f5a87643b91ea569d23d6afb3eee9c743edde239
+  R.swift.Library: cfe85d569d9bae6cb262922db130e7c3a7a5fad1
+  Realm: 4eb04d7487bd43c0581256f40b424eafb711deff
+  RealmSwift: 3eb8924ff7100df5928c7602f71d0fec51e7c9c5
+  RxBlocking: 5f700a78cad61ce253ebd37c9a39b5ccc76477b4
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
+  RxGesture: d6bd7447ca3a596c7a9702a6a2b6a2bb5d8bae54
+  RxNimble: 7de04a30b74ac4c9298ae819edbfbddc34abe7fc
+  RxRealm: 900f5c7e6f0a2d6527b56eaf7283f3035ec1e8ba
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  RxSwiftExt: 4ca80336f43c28f11a2825cdd2fc61dd6c044697
+  RxSwiftUtilities: dc208a9567b5b8da972056055de8f0446f9aa2d6
+  RxTest: 711632d5644dffbeb62c936a521b5b008a1e1faa
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SpringIndicator: 96eb6158a9dc94c1623d84130639a52225f04056
+  StatefulViewController: 4803bf900d44de26074344998e10e041113b5931
+  SwiftLint: 22ccbbe3b8008684be5955693bab135e0ed6a447
+
+PODFILE CHECKSUM: 144bc638be95949ab5e08793adfdfea3fb1a6f94
+
+COCOAPODS: 1.9.1
